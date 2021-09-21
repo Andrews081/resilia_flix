@@ -1,0 +1,200 @@
+body{
+	width: 99%;
+	height: 400px;
+	background-color: black;
+}
+
+#container{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	color: #e50914 ;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	margin-top: 110px;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+#digiteSeuEmail{
+	font-size: 35px;
+}
+
+#email{
+	width: 45%;
+	height: 50px;
+	margin-top: 2%;
+	border-radius: 5px;
+}
+
+#caixaMaior{
+	text-align: center;	
+}
+
+#caixaMaior h1{
+	font-family: 'Bebas Neue', cursive;
+	margin-bottom: 15px;
+}
+
+#caixa{
+	width: 450px;
+	height: 380px;
+	background-color: white;
+	border-radius: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+}
+
+#caixaMenor{
+	width: 400px;
+	height: 350px;
+}
+
+#caixaMenor h2{
+	color: #646c9a;
+	font-size: 2rem;
+	margin-top: 10px;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    text-align: left;
+}
+
+#caixaMenor p{
+	color: #646c9a;
+	font-size: 16px;
+	margin-top: 0;
+    margin-bottom: 1rem;
+    font-weight: 300;
+    line-height: 1.5;
+    text-align: left;
+}
+
+#formularioEmail{
+	display: flex;
+	flex-direction: column;
+}
+
+#textoEmail{
+	color: #646c9a;
+	font-size: 15px;	  
+    font-weight: 600;    
+    text-align: left;   
+}
+
+#caixaEmail{
+	width: 100%;
+	height: 50px;
+	color:  #646c9a;
+}
+
+#botao{
+	width: 100%;
+	height: 50px;
+	margin: 10px 0px 5px 0px ;
+	cursor: pointer;
+	background-color: #e50914 ;
+	border: none;
+	font-size: 17px;
+}
+
+#botao:hover{
+	background-color: #B70710
+}
+
+#voltar span{
+	color: #2786fb;
+	font-size: 13px;
+	float: right;
+	font-weight: 500;
+}
+
+#precisaAjuda{
+	color: #646c9a;
+	font-size: 12px;	  
+    font-weight: 400;    
+    text-align: center;  
+}
+
+#precisaAjuda a{
+	color: #646c9a;
+}
+
+.modal{
+	position: fixed;
+	top:0;
+	left:0;
+	padding:0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+	opacity: 0;
+	visibility: hidden;
+	transform: scale(1.1);
+	transition: visibility 0.25s ease-in-out , opacity 0.25s ease-in-out, transform 0.25s ease-in-out;   
+}
+
+.modal-content{    
+	background-color: white;
+	padding: 16px 24px;    
+	width: 350px;
+	border-radius: 0.5rem;
+}
+
+.close-button{
+	width: 24px;
+	margin-bottom: 5px;
+	line-height: 24px;
+	text-align: center;
+	cursor: pointer;
+	border-radius: 0.25rem;
+	color: black;
+	background-color: lightgray;
+}
+
+.close-button:hover{
+	background-color: darkgray;
+}
+
+#botaoOKModal{
+   width: 50px;
+   height: 40px;
+   border-radius: 10px;
+   color: #000000;
+   font-family: 'Bebas Neue', cursive;  
+   font-size: 12px;
+   font-weight: 100;
+   padding: 10px;
+   background-color:ForestGreen;   
+   border: solid #000000 1px;
+   text-decoration: none;
+   font-weight: 700;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;  
+   float: right;
+}
+
+#botaoOKModal:hover{
+	background-color:DarkGreen; 
+}
+
+.show-modal{
+	opacity: 1;
+	visibility: visible;
+	transform: scale(1.0);    
+}
+
+#mensagemModal{
+	font-family: 'Montserrat', sans-serif;
+	color: DarkGreen;
+	font-size: 18px;
+	margin: 10px 10px 10px 0px;
+	text-align: justify;	
+}
