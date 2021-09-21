@@ -1,0 +1,80 @@
+body {
+    background: linear-gradient(to right, #333333, #dd1818);
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 25px;
+}
+
+p {
+    color: rgb(255, 255, 255);
+}
+
+header {
+    background-color: rgba(33, 37, 41, 255);
+}
+.redessociais {
+    height: 45px;
+    width: 70px;
+}
+
+.redessociaisjim {
+    height: 25px;
+    width: 30px;
+}
+
+.redessociais:hover {
+    transform: scale(1.05);
+}
+
+h5 {
+    font-size: 25px;
+}
+
+.descrição {
+    text-shadow: 0px 0px 20px #000000;
+    color: rgb(255, 255, 255);
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-size: 20px;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.6;
+    width: 100%;
+}
+
+.grupo {
+    color: white;
+    font-size: 50px;
+    padding: 200px;
+}
+
+.nome {
+    text-align: center;
+    color: white;
+}
+.conteudo {
+    padding: 0.9em;
+    background-color: #141414;
+    letter-spacing: 0.1em;
+    background: linear-gradient(#141414, #aaa);
+}
+
+nav, .dropdown-menu {
+    color: #e50914;
+    /* letter-spacing: 0.1em; */
+}
+
+.dropdown-menu {
+    border-radius: 0.5em;
+    background: linear-gradient(#141414, #aaa);
+    font-size: 0.8em;
+}
+
+.dropdown-menu:hover {
+    transition: all 150ms ease-in-out;
+}
+
+a, .dropdown-item { 
+    color: #e50914;
+}
