@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Link do bootstrap: -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+    <!--   Link CSS -->
+    <link rel="stylesheet" type="text/css" href="./recuperarSenha.css">
+    <title>ResiliaFlix</title>
+</head>
+
+<body>  
+
+    <div id="container">
+
+        <div id="caixaMaior">
+            <h1>RESILIA FLIX</h1>
+            <div id="caixa">
+                <div id="caixaMenor">
+                    <h2>Esqueceu sua senha?</h2>
+                    <p>No formulário abaixo, informe o seu e-mail de usuário e uma nova senha de acesso será enviada dentro de instantes.</p>
+                    <form id="formularioEmail" name="form1" action="#"> 
+                        <label id="textoEmail">E-mail do usuário</label> 
+                        <input type='text' id="caixaEmail" name='text1'/>           
+                        <input id="botao" type="submit" name="submit" value="Recuperar Senha" onclick="ValidateEmail(document.form1.text1)"/>   
+                    </form>
+                    <div id="voltar">
+                        <a href="../html/login.html"><span>Voltar para a tela de login</span></a>
+                    </div>
+                    <br>
+                    <div id="precisaAjuda">
+                        Precisa de ajuda? <a href="./html/index.html" >Entre em contato</a>
+                    </div>
+                </div>
+            </div> 
+        </div>  
+
+        <!--  JANELA MODAL EMAIL ENVIADO COM SUCESSO -->
+        <div class="modal" id="modal">
+            <div class="modal-content">
+                <span class="close-button" onclick="closeModal()">&times;</span>
+                <h1 id="mensagemModal">E-mail enviado com sucesso.<br>Verifique sua caixa de entrada.</h1>
+                <a href="index.html"><button id="botaoOKModal">OK</button></a>
+            </div>
+        </div>
+        
+    </div>
+
+
+</body>
+</html>
+<script>
+
+    function ValidateEmail(inputText){
+        var formatoEmail = /[a-z0-9._%+-]+@[outlook|gmail|hotmail]+\.[a-z]{2,3}/g;
+        var element = document.getElementById("modal");
+        var email = document.getElementById("caixaEmail");
+
+    if(inputText.value.match(formatoEmail)){
+        element.classList.add("show-modal");
+        // alert("Valid email address!");            
+    }else{
+        alert("Digite um e-mail válido");
+        document.getElementById('caixaEmail').value = ''; 
+        }
+    }
+
+    function closeModal() {
+        var element = document.getElementById("modal");
+        element.classList.remove("show-modal");
+    }
+    </script>
+
+<!-- function validarEmail() {
+    var email = document.getElementById("email");
+    var element = document.getElementById("modal");
+
+    if(email.value == ''){
+        alert("Email não informado");        
+        email.focus();
+    }else{ 
+        element.classList.add("show-modal");
+    }
+} -->
