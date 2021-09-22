@@ -36,7 +36,6 @@ body,html {
     background: radial-gradient(#e50914,black);
 }
 
-/* Nav bar */
 .navbar-toggler-icon {
     color: #eee;
     background-color: #e50914;
@@ -69,7 +68,7 @@ navbar {
 .navbar-brand {
     font-size: 2em;
 }
-/* Titulo 1,2,3 ↓ */
+
 label {
     color: #141414;
     font-weight: 700;
@@ -93,10 +92,6 @@ h4::selection {
 	background-color: transparent;
 }
 
-
-/* Titulo 1,2,3 ↑ */
-
-/* Botão ↓ */
 .btn {
     box-sizing: border-box;
     background-color: transparent;
@@ -127,9 +122,7 @@ h4::selection {
     color: #fff;
     outline: 0;
 }
-/* Botão ↑ */
 
-/* FOOTER ↓ */
 footer {
     background: #141414;
 }
@@ -157,9 +150,7 @@ h6::selection{
     height: 25px;
     width: 30px;
 }
-/* FOOTER ↑ */
 
-/* Declara variáveis na raiz ↓ */
 :root {
     --azul: #0a58ca;
 	--vermelho: #e50914;
@@ -168,5 +159,3 @@ h6::selection{
 	--cinza: #aaa;
 	--info: #6d6d6eb3;
 }
-
-/* Declara variáveis na raiz ↑ */

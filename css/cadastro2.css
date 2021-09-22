@@ -29,7 +29,6 @@ body,html {
     scroll-behavior: smooth;
 }
 
-/* Barra Navegação ↓ */
 .navbar-brand {
     font-size: 2em;
 }
@@ -61,9 +60,6 @@ a::selection {
     color: #0a58ca;
 }
 
-/* Barra Navegação ↑ */
-
-/* Conteúdo ↓ */
 .conteudo {
     padding: 17.45em;
     background-color: #141414;
@@ -88,9 +84,6 @@ h4::selection {
 	color: #141414;
 	background-color: transparent;
 }
-/* Conteúdo ↑ */
-
-/* Footer ↓ */
 
 p::selection{
     color: #141414;
@@ -145,4 +138,3 @@ h6::selection{
     height: 25px;
     width: 30px;
 }
-/* Footer ↑ */
