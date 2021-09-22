@@ -92,7 +92,7 @@ h4::selection {
 	background-color: transparent;
 }
 
-.btn {
+.cadastroSubmit {
     box-sizing: border-box;
     background-color: transparent;
     border: 2px solid #e50914;
@@ -114,11 +114,11 @@ h4::selection {
     transition: all 150ms ease-in-out;   
 }
 
-.btn:hover {
+.cadastroSubmit:hover {
     box-shadow: 0 0 10px 0 #e50914 inset, 0 0 10px 4px #e50914;
 }
 
-.btn:hover, .btn:focus {
+.cadastroSubmit:hover, .cadastroSubmit:focus {
     color: #fff;
     outline: 0;
 }
@@ -149,6 +149,15 @@ h6::selection{
 .redessociaisjim {
     height: 25px;
     width: 30px;
+}
+
+a:hover{
+    color: #e50914;
+}
+
+img {
+    box-shadow: 0 0 10px 0 #e50914 inset, 0 0 10px 4px #e50914;
+    color: black;
 }
 
 :root {
