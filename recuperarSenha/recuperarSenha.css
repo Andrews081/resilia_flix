@@ -18,9 +18,28 @@
 @import url(https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap);
 
 body{
-	width: 99%;
-	height: 400px;
-	background-color: black;
+	width: 100%;
+	height: 90vh;
+	background: radial-gradient(#e50914,black);
+	margin: 0 auto;
+}
+
+.navbar {
+    background-color: black;
+}
+.navbar a {
+    color:#e50914 ;
+}
+.redessociaisjim {
+    height: 25px;
+    width: 30px;
+}
+a:hover{
+    color: #e50914;
+}
+img {
+    box-shadow: 0 0 10px 0 #e50914 inset, 0 0 10px 4px #e50914;
+    color: black;
 }
 
 #container{
@@ -32,9 +51,10 @@ body{
 	justify-content: center;
 	align-items: center;
 	align-content: center;
-	margin-top: 110px;
+	margin-top: 50px;
 	margin-right: 5%;
 	margin-left: 5%;
+	margin-bottom: 18.6%;
 }
 
 #digiteSeuEmail{
@@ -49,7 +69,7 @@ body{
 }
 
 #caixaMaior{
-	text-align: center;	
+	text-align: center;
 }
 
 #caixaMaior h1{
@@ -216,4 +236,19 @@ body{
 	font-size: 18px;
 	margin: 10px 10px 10px 0px;
 	text-align: justify;	
+}
+
+footer{
+	margin-top: 35px;
+	background-color: black;
+}
+
+.redessociaisjim {
+   height: 25px;
+   width: 30px;
+}
+
+img{
+   box-shadow: 0 0 10px 0 #e50914 inset, 0 0 10px 4px #e50914;
+   color: black;
 }

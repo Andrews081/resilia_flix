@@ -29,39 +29,26 @@ body,html {
     scroll-behavior: smooth;
 }
 
-.navbar-brand {
-    font-size: 2em;
-}
-
-a::selection {
-    background-color: transparent;
-    font-family: 'Bebas Neue', cursive;
-}
 .navbar {
-    padding: 0%;
-    background-color: #141414;
-    font-family: 'Bebas Neue', cursive;
-    font-weight: 400;
-    font-size: 2.0em;
+    background-color: black;
 }
-
-.navbar-toggler-icon {
-    background-color: #e50914;
-    color: #eee;
-    border-radius: 0.5em;
-    text-align: center;
+.navbar a {
+    color:#e50914 ;
 }
-
-.nav-link {
+.redessociaisjim {
+    height: 25px;
+    width: 30px;
+}
+a:hover{
     color: #e50914;
 }
-
-.nav-link:focus, .nav-link:hover {
-    color: #0a58ca;
+img {
+    box-shadow: 0 0 10px 0 #e50914 inset, 0 0 10px 4px #e50914;
+    color: black;
 }
 
 .conteudo {
-    padding: 18.10em;
+    padding: 19.67em;
     background-color: #141414;
     letter-spacing: 0.1em;
     background: radial-gradient(#e50914,black);

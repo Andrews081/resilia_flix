@@ -21,6 +21,9 @@ body {
     background: linear-gradient(to right, #333333, #dd1818);
 }
 
+#carouselExampleCaptions {
+    padding: 8em;
+}
 
 h1 {
     text-align: center;
@@ -34,6 +37,7 @@ p {
 header {
     background-color: rgba(33, 37, 41, 255);
 }
+
 .redessociais {
     height: 45px;
     width: 70px;
@@ -107,28 +111,20 @@ a, .dropdown-item {
 }
 
 .navbar {
-    font-family: 'Bebas Neue', cursive;
-    font-weight: 400;
-    font-size: 2.0em;
+    background-color: black;
 }
-
-.nav-link {
+.navbar a {
+    color:#e50914 ;
+}
+.redessociaisjim {
+    height: 25px;
+    width: 30px;
+}
+a:hover{
     color: #e50914;
 }
-
-.nav-link:focus, .nav-link:hover {
-    color: #0a58ca;
-}
-
-a { 
-    color: #e50914;
-}
-
-navbar {
-    padding: 0%;
-}
-
-.navbar-brand {
-    font-size: 2em;
+img {
+    box-shadow: 0 0 10px 0 #e50914 inset, 0 0 10px 4px #e50914;
+    color: black;
 }
 /* NavBar ↑ */
