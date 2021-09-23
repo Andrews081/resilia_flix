@@ -1,0 +1,313 @@
+
+
+{
+    "logo" : "Resilia",
+    "catalogo" : [
+        {
+            "genero" : "9",
+            "title" : "lucifer",
+            "sinopse" : "Entediado com a vida nas trevas, o diabo se muda para Los Angeles, abre um piano-bar e empresta sua sabedoria a uma investigadora de assassinatos.",
+            "img" : "mini2.jpeg",
+            "lancamento" : "2019",
+            "video" : "Lucifer _ Temporada 4 - Teaser [HD] _ Netflix.mp4",
+            "classificacao" : 1
+        },
+        {
+            "genero" : "1",
+            "title" : "Tom & Jerry O Filme",
+            "sinopse" : "Uma das rivalidades mais amadas da história ressurge quando Jerry se muda para o hotel mais rico de Nova Iorque, na véspera do casamento do século, forçando a desesperada organizadora do evento a contratar Tom para se livrar do rato. A batalha entre gato e rato que se inicia ameaça destruir a sua carreira, o casamento e até mesmo o hotel. Mas logo um problema ainda maior surge: um diabólico funcionário começa a tramar contra os três.",
+            "img" : "anim1.jpeg",
+            "lancamento" : "2021",
+            "video" : "TOM & JERRY Trailer Brasileiro DUBLADO (2021).mp4", 
+            "classificacao" : 3
+        },
+        {
+            "genero" : "1",
+            "title" : "os croods 2",
+            "sinopse" : "Em busca de um habitat mais seguro, a família pré-histórica Crood descobre um paraíso isolado que atende a todas as suas necessidades. Infelizmente, eles também devem aprender a viver com os Bettermans, uma família que está alguns degraus acima dos Croods na escada evolutiva. À medida que as tensões entre os novos vizinhos começam a aumentar, uma nova ameaça logo impulsiona os dois clãs em uma aventura épica que os força a abraçar suas diferenças e se fortalecerem e sobreviverem juntos.",
+            "img" : "anim2.jpeg",
+            "lancamento" : "2021",
+            "video" : "THE CROODS 2_ A NEW AGE - Croodimals Trailer (Universal Pictures) HD.mp4",
+            "classificacao" : 3
+        },
+        {
+            "genero" : "1",
+            "title" : "scooby-doo e a espada",
+            "sinopse" : "Uma feiticeira malvada transporta os jovens detetives de volta à Idade Média, onde eles conhecem o lendário Rei Arthur e seus nobres cavaleiros. Porém,a turma precisa enfrentar magos que lançam feitiços e dragões que cospem fogo.",
+            "img" : "anim3.jpeg",
+            "lancamento" : "2020",
+            "video" : "SCOOBY-DOO! E A ESPADA - Trailer Dublado.mp4", 
+            "classificacao" : 3
+        },
+        {
+            "genero" : "1",
+            "title" : "Miraculous",
+            "sinopse" : "As Aventuras de Ladybug acompanha Marinette Dupain-Cheng, uma corajosa garota que esconde uma identidade secreta: ela é a Ladybug, uma heroína inconfundível. Decidida a combater todos os perigos da cidade de Paris, a jovem embarca em uma jornada repleta de desafios e aventuras",
+            "img" : "anim4.jpeg",
+            "lancamento" : "",
+            "video" : "",
+            "classificacao" : 0
+        },
+        {
+            "genero" : "1",
+            "title" : "100% lobo",
+            "sinopse" : "Freddy Lupin mal pode esperar para se tornar um lobisomem, assim como seu lendário pai. No entanto, quando chega o grande dia, algo dá errado e ele se transforma em um poodle",
+            "img" : "anim5.jpeg",
+            "lancamento" : "",
+            "video" : "",
+            "classificacao" : 0
+        },
+        {
+            "genero" : "1",
+            "title" : "el caminho de xico",
+            "sinopse" : "Uma menina, o seu cão e o seu melhor amigo estão decididos a salvar uma montanha de uma empresa gananciosa. Mas quem tem a verdadeira solução é Xico, o cachorrinho.",
+            "img" : "anim6.jpeg",
+            "lancamento" : "",
+            "video" : "",
+            "classificacao" : 0
+        },
+        {
+            "genero" : "1",
+            "title" : "bob esponja o incrível resgate",
+            "sinopse" : "Onde está Gary? Segundo Bob Esponja, Gary foi caracolstrado pelo temível Rei Poseidon e levado para a cidade perdida de Atlantic City. Com a ajuda do Patrick, ele sai em uma missão de resgate ao querido amigo, e nesta jornada os dois conhecem novos personagens e vivem inimagináveis aventuras.",
+            "img" : "anim7.jpeg",
+            "lancamento" : "",
+            "video" : "",
+            "classificacao" : 0
+        },
+        {
+            "genero" : "1",
+            "title" : "paw patrol",
+            "sinopse" : "O filhote Ryder e seus amigos têm um grande desafio: impedir o novo prefeito da cidade, Humdinger, de causar muitos problemas. Juntos e equipados com muita tecnologia, a Patrulha Canina luta para salvar os moradores da Cidade da Aventura.",
+            "img" : "anim8.jpeg",
+            "lancamento" : "",
+            "video" : "",
+            "classificacao" : 0
+        },
+        {
+            "genero" : "1",
+            "title" : "a caminho da lua",
+            "sinopse" : "Estimulada pelas histórias da mãe, Fei Fei decide construir uma nave espacial para ir até à Lua e comprovar a existência de uma lendária deusa.",
+            "img" : "anim9.jpeg",
+            "lancamento" : "",
+            "video" : "",
+            "classificacao" : 0
+        },
+        {
+            "genero" : "1",
+            "title" : "sapatinho vermelho e os sete anões",
+            "sinopse" : "Sete príncipes arrogantes são transformados em anões e somente o beijo da princesa de sapatos vermelhos pode desfazer o feitiço. A disputa pelo beijo faz com que eles mudem suas visões de mundo e entendam o verdadeiro significado da beleza.",
+            "img" : "anim10.jpeg",
+            "lancamento" : "",
+            "video" : "",
+            "classificacao" : 0
+        },
+        {
+            "genero" : "0",
+            "title" : "mulher maravilha",
+            "sinopselegenda" : "Treinada desde cedo para ser uma guerreira imbatível, Diana Prince nunca saiu da paradisíaca ilha em que é reconhecida como princesa das Amazonas. Quando o piloto Steve Trevor sofre um acidente e cai em uma praia do local, ela descobre que uma guerra sem precedentes está se espalhando pelo mundo e decide deixar seu lar certa de que pode parar o conflito. Lutando para acabar com a guerra, Diana percebe o alcance de seus poderes e sua verdadeira missão na Terra.",
+            "img" : "film1.jpeg",
+            "lancamento" : "",
+            "video" : "",
+            "classificacao" : 0
+        },
+        {
+            "genero" : "0",
+            "title" : "A baixo de zero",
+            "sinopse" : "Uma van que transporta prisioneiros é atacada e o oficial responsável precisa lutar com perigos dentro e fora do veículo, além de lidar com temperaturas congelantes",
+            "img" : "film2.jpeg",
+            "lancamento" : "",
+            "video" : "",
+            "classificacao" : 0
+        },
+        {
+            "genero" : "0",
+            "title" : "Nova Ordem Espacial",
+            "sinopse" : "Na trama, um grupo de viajantes intergalácticos acaba descobrindo uma grande conspiração ao tentar vender um humanoide no espaço. Mais uma vez, o serviço de streaming está apostando em produções coreanas empolgantes para impulsionar o acervo. ... O coreano Sung-hee Jo é o diretor de Nova Ordem Espacial",
+            "img" : "film3.jpeg",
+            "lancamento" : "",
+            "video" : "",
+            "classificacao" : 0
+        },
+        {
+            "genero" : "0",
+            "title" : "o pequeno vestigios",
+            "sinopse" : "O delegado adjunto do condado de Kern, Joe Deke Deacon, é enviado a Los Angeles para o que deveria ser uma rápida coleta de provas. Em vez disso, ele se envolve na busca por um assassino em série que está aterrorizando a cidade. À frente do caso, Jim Baxter, delegado do Departamento de Polícia de Los Angeles, impressionado com os instintos de Deke, designa o policial, extraoficialmente, para ajudá-lo.",
+            "img" : "film4.jpeg",
+            "lancamento" : "",
+            "video" : "",
+            "classificacao" : 0
+        },
+        {
+            "genero" : "",
+            "title" : "After",
+            "sinopse" : "Tessa Young é uma jovem com uma vida simples, ótimas notas na escola, muitos amigos e um bom namorado. Todos os próximos passos de sua vida já estão planejados, mas as coisas mudam quando ela conhece um homem atraente e cheio de segredos sombrios.",
+            "img" : "film5.jpeg",
+            "lancamento" : "",
+            "video" : "",
+            "classificacao" : 0
+        },
+        {
+            "genero" : "",
+            "title" : "Aves de Rapina",
+            "sinopse" : "Depois de se aventurar com o Coringa, Arlequina se junta a Canário Negro, Caçadora e Renee Montoya para salvar a vida de uma garotinha do criminoso Máscara Negra em Gotham City.",
+            "img" : "film6.jpeg",
+            "lancamento" : "",
+            "video" : "",
+            "classificacao" : 0
+        },
+        {
+            "genero" : "",
+            "title" : "Agente Vanguard",
+            "sinopse" : "Tang Huating é o chefe de uma agência de segurança chinesa que precisa se unir com autoridades de Dubai para capturar o grupo de mercenários mais fatal do mundo. O objetivo é salvar o homem que o contratou, é alvo dos criminosos.",
+            "img" : "film7.jpeg",
+            "lancamento" : "",
+            "video" : "",
+            "classificacao" : 0
+        },
+        {
+            "genero" : "",
+            "title" : "Ava",
+            "sinopse" : "Assassina de elite luta para proteger a si mesma e a sua família depois que uma missão dá errado.",
+            "img" : "film8.jpeg",
+            "lancamento" : "",
+            "video" : "",
+            "classificacao" : 0
+        },
+        {
+            "genero" : "",
+            "title" : "Vingadores",
+            "sinopse" : "Loki, o irmão de Thor, ganha acesso ao poder ilimitado do cubo cósmico ao roubá-lo de dentro das instalações da S.H.I.E.L.D. Nick Fury, o diretor desta agência internacional que mantém a paz, logo reúne os únicos super-heróis que serão capazes de defender a Terra de ameaças sem precedentes. Homem de Ferro, Capitão América, Hulk, Thor, Viúva Negra e Gavião Arqueiro formam o time dos sonhos de Fury, mas eles precisam aprender a colocar os egos de lado e agir como um grupo em prol da humanidade.",
+            "img" : "film9.jpeg",
+            "lancamento" : "",
+            "video" : "",
+            "classificacao" : 0
+        },
+        {
+            "genero" : "",
+            "title" : "Stars Wars",
+            "sinopse" : "A princesa Leia é mantida refém pelas forças imperiais comandadas por Darth Vader. Luke Skywalker e o capitão Han Solo precisam libertá-la e restaurar a liberdade e a justiça na galáxia",
+            "img" : "film10.jpeg",
+            "lancamento" : "",
+            "video" : "",
+            "classificacao" : 0
+        },
+        {
+            "genero" : "9",
+            "title" : "Riverdale",
+            "sinopse" : "Riverdale traz uma abordagem subversiva de Archie, Betty, Veronica, Jughead Jones, Josie e seus amigos, explorando o surrealismo de uma pequena cidade e seus curiosos habitantes. A história começa quando a cidade se recupera de uma trágica perda, o que leva Archie a pensar mais seriamente a respeito de seu futuro.",
+            "img" : "mini1.jpeg",
+            "lancamento" : "",
+            "video" : "",
+            "classificacao" : 0
+        },
+        {
+            "genero" : "",
+            "title" : "Grey's Anatomy",
+            "sinopse" : "Grey's Anatomy é uma série de TV americana transmitida originalmente pelo canal American Broadcasting Company (ABC). O drama acompanha a vida pessoal e profissional de estagiários de cirurgia e seus supervisores do Grey Sloan Memorial Hospital, anteriormente conhecido como o Seattle Grace Hospital.",
+            "img" : "mini3.jpeg",
+            "lancamento" : "",
+            "video" : "",
+            "classificacao" : 0
+        },
+        {
+            "genero" : "",
+            "title" : "julie and the phantoms",
+            "sinopse" : "Julie (Madison Reyes) é uma adolescente que perdeu sua paixão pela música após o falecimento de sua mãe. Quando os fantasmas de três músicos - que formavam a banda The Phantom e que morreram há 25 anos - aparecem para a jovem, ela sente renascer seu amor por cantar e compor.",
+            "img" : "mini4.jpeg",
+            "lancamento" : "",
+            "video" : "",
+            "classificacao" : 0
+        },
+        {
+            "genero" : "",
+            "title" : "Sense 8",
+            "sinopse" : "Grupos de pessoas ao redor do mundo que estão ligadas mentalmente, e precisam achar uma maneira de sobreviver sendo caçados por aqueles que os veem como uma ameaça para a ordem mundial.",
+            "img" : "mini5.jpeg",
+            "lancamento" : "",
+            "video" : "",
+            "classificacao" : 0
+        },
+        {
+            "genero" : "",
+            "title" : "Dark",
+            "sinopse" : "Quatro diferentes famílias - Kahnwald, Nielsen, Doppler e Tiedemann - vivem em Winden, uma pequena e aparentemente tranquila cidade alemã. A rotina dos moradores vira de cabeça para baixo quando duas crianças desaparecem misteriosamente, nas proximidades de uma antiga usina nuclear.",
+            "img" : "mini6.jpeg",
+            "lancamento" : "",
+            "video" : "",
+            "classificacao" : 0
+        },
+        {
+            "genero" : "",
+            "title" : "Gilmore girl",
+            "sinopse" : "A história acompanha a vida de Lorelai Gilmore, uma mãe solteira que cria sua filha adolescente Rory, na cidade de Stars Hollow em Connecticut. As duas agem mais como amigas do que mãe e filha, uma relação que Lorelai não teve com sua própria mãe, Emily Gilmore, uma dama da alta sociedade.",
+            "img" : "mini7.jpeg",
+            "lancamento" : "",
+            "video" : "",
+            "classificacao" : 0
+        },
+        {
+            "genero" : "",
+            "title" : "Eu Nunca",
+            "sinopse" : "Retrata a vida moderna e complicada de Devi (Maitreyi Ramakrishnan), uma adolescente americana, filha de indianos e aluna nada popular na escola. A série é inspirada em momentos reais da infância da atriz e comediante Mindy Kaling.",
+            "img" : "mini8.jpeg",
+            "lancamento" : "2020",
+            "video" : "",
+            "classificacao" : 0
+        },
+        {
+            "genero" : "",
+            "title" : "Lupin",
+            "sinopse" : "Lupin se concentra na história de Assane Diop, interpretado por Omar Sy (de Intocáveis). Vinte e cinco anos após seu pai ter sido acusado injustamente de um crime, ele busca vingança. Mestre do disfarce, Assane se inspira no livro “Arsène Lupin, o Ladrão de Casaca“, de Maurice Leblanc, em busca de justiça",
+            "img" : "mini9.jpeg",
+            "lancamento" : "2021",
+            "video" : "",
+            "classificacao" : 0
+        },
+        {
+            "genero" : "",
+            "title" : "Black Mirror",
+            "sinopse" : "Black Mirror é uma série de televisão britânica antológica de ficção científica criada por Charlie Brooker e centrada em temas obscuros e satíricos que examinam a sociedade moderna, particularmente a respeito das consequências imprevistas das novas tecnologias",
+            "img" : "mini10.jpeg",
+            "lancamento" : "2011",
+            "video" : "",
+            "classificacao" : 0
+        },
+        {
+            "genero" : "9",
+            "title" : "Sex Education",
+            "sinopse" : "A história acompanha Otis Thompson, um adolescente virgem e com dificuldades sociais, filho de uma terapeuta sexual. Cercado por vídeos e conversas abertas e entediantes sobre sexo, Otis acaba se tornando um especialista no assunto, e junto com uma amiga, abre uma clínica de terapia sexual clandestina na escola.",
+            "img" : "img0.jpg",
+            "lancamento" : "",
+            "video" : "",
+            "classificacao" : 0
+        },
+        {
+            "genero" : "9",
+            "title" : "Supernatural",
+            "sinopse" : "Supernatural é uma série de TV norte-americana de fantasia sobrenatural transmitida originalmente pelo canal The CW. A trama acompanha os irmãos Sam e Dean Winchester que, há 20 anos, perderam a mãe em um trágico e misterioso acidente no qual as forças sobrenaturais estiveram envolvidas.",
+            "img" : "img1.jpg",
+            "lancamento" : "",
+            "video" : "",
+            "classificacao" : 0
+        },
+        {
+            "genero" : "9",
+            "title" : "big bangs theory",
+            "sinopse" : "Dois jovens gênios da física, Leonard (Johnny Galecki) e Sheldon Cooper (Jim Parsons), dividem um apartamento e são surpreendidos ao descobrir que a vizinha, Penny (Kaley Cuoco), é uma loira não tão inteligente. Leonard acredita que pode conquistar a jovem.",
+            "img" : "img2.jpg",
+            "lancamento" : "",
+            "video" : "",
+            "classificacao" : 0
+        },
+        {
+            "genero" : "9",
+            "title" : "two and a half men",
+            "sinopse" : "A vida de um homem rico e solteiro, Charlie (Charlie Sheen), que se aborrece quando seu irmão divorciado Alan (Jon Cryer) e seu sobrinho Jake (Angus T. Jones) acabam indo morar na sua casa em Malibu. Apesar das enormes diferenças entre os dois irmãos, eles decidem firmar uma parceria para dar um lar ao pequeno Jake.",
+            "img" : "img3.jpg",
+            "lancamento" : "",
+            "video" : "",
+            "classificacao" : 0
+        }
+    ]
+}

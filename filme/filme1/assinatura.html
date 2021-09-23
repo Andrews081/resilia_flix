@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="load">
+        <p>Carregando...</p>
+        <span></span>
+    </div>
+    <div class="msgs">
+        <div class="msgValid">
+            <h4 class="valid">Cadastrado com sucesso</h4>
+            <img src="./img/icon/check-circle-regular.svg" alt="">
+        </div>
+        <div class="msgErro">
+            <h4 class="erro">Erro na validação</h4>
+            <img src="./img/icon/times-circle-regular.svg" alt="">
+        </div>
+        
+    </div>
+    <header>
+        <div class="logo">
+            <a href="">
+                <h1>ResiliaFlix</h1>
+            </a>
+        </div>
+        <div class="search">
+            <input type="search" name="search" id="searchs" placeholder="Pesquisar">
+            <input type="button" value="Pesquisar" id="pesquisar">
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="../index.html">inicio</a>
+                </li>
+                <li>
+                    <a href="quemsomos.html">quem somos</a>
+                </li>
+                <li>
+                    <a href="quemsomos.html">conta</a>
+                </li>
+                <li>
+                    <a href="login.html">sair</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+           <form action="">
+                <div class="infoCard">
+                    <div class="boxDados">
+                        <h2>
+                            <img src="./img/icon/address-card-regular.svg" alt=""> Dados do cartão
+                        </h2>
+                    </div>
+                    <div class="boxDados">
+                        <input type="text" name="" id="name" required>
+                        <span>Nome</span>
+                    </div>
+                    <div class="boxDados">
+                        <input type="text" name="" id="sobrenome" required>
+                        <span>Sobrenome</span>
+                    </div>
+                    <div class="boxDados">
+                        <input type="text" name="" id="cpf" required>
+                        <span>CPF ( Opcional )</span>
+                    </div>
+                    <div class="boxDados">
+                        <input type="text" name="" id="cardnumber" required onkeyup="Bandeira(this.value)">
+                        <span>Número do cartão</span>
+                    </div>
+                    <div class="boxDados">
+                        <input type="text" name="" id="dateval" required>
+                        <span>Data de validade ( MM/AA )</span>
+                    </div>
+                    <div class="boxDados">
+                        <input type="text" name="" id="cvv" required>
+                        <span>Código de segurança ( CVV )</span>
+                    </div>
+                    <div class="cartoes">
+                        <ul>
+                            <li>
+                                <img src="./img/icon/cc-mastercard-brands.svg" alt="">
+                            </li>
+                            <li>
+                                <img src="./img/icon/cc-visa-brands.svg" alt="">
+                            </li>
+                            <li>
+                                <img src="./img/icon/cc-diners-club-brands.svg" alt="">
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="boxDadoss">
+                        <h3>Escolha sua forma de pagamento preferida:</h3>
+                        <label for="credito">
+                            <input type="radio" name="r1" id="credito" checked>
+                            Crédito
+                        </label>
+                        <label for="debito">
+                            <input type="radio" name="r1" id="debito">
+                            Débito
+                        </label>
+                    </div>
+                    <div class="boxDadoscheck">
+                        <label for="check">
+                            <input type="checkbox" name="" id="check">
+                            <p>Se a cobrança no débito falhar, você nos autoriza a tentar no crédito (caso seu cartão tenha essa opção)</p>
+                        </label>
+                    </div>
+                </div>
+                <input type="button" value="Confirmar" onclick="stopDefAction()">
+           </form>
+            
+            <!--  -->
+           
+        </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>

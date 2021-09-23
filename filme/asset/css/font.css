@@ -1,0 +1,16 @@
+@font-face{
+    font-family: "Pop";
+    src: url("../font/Poppins-Light.ttf");
+}
+@font-face{
+    font-family: "CinzelBlack";
+    src: url("../font/CinzelDecorative-Black.ttf");
+}
+@font-face{
+    font-family: "CinzelBold";
+    src: url("../font/CinzelDecorative-Bold.ttf");
+}
+@font-face{
+    font-family: "CinzelRegular";
+    src: url("../font/CinzelDecorative-Regular.ttf");
+}
