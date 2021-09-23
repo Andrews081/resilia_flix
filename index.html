@@ -1,115 +1,135 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="icon" href="assets/iconN.png">
-	<link rel="stylesheet" href="style/style.css">
-	<link rel="stylesheet" href="style/responsive.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-	
-	<link rel="stylesheet" href="style/owl/owl.carousel.min.css">
-	<link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
-
-	<title>Resilia Flex</title>
-	<style>
-		@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-	</style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon.png">
+    <link rel="shortcut icon" href="./asset/img/favicon/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Films</title>
+    <link rel="stylesheet" href="./asset/css/style.css">
 </head>
-
 <body>
-	<header>
-		<div class="container">
-			<h2>Resilia</h2>
-			<nav>
-				<a href="index.html">Início</a>
-				<a href="series.html">Séries</a>
-				<a href="filmes.html"">Filmes</a>
-				<a href=" animacoes.html">Animações</a>
-			</nav>
-		</div>
-	</header>
+    <div class="mainLoad">
+        <div class="load">
+            <h1>Films</h1>
+            <span></span>
+        </div>
+    </div>
+    <header id="header">
+        <div class="logo">
+            <a href="./index.html">
+                <h1>Fimls</h1>
+            </a>
+        </div>
+        <div class="search">
+            <input type="search" name="" id="search" placeholder="Pesquisa">
+            <img src="./asset/img/icon/search-solid.svg" alt="" class="searchimg">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Início</a></li>
+                <li><a href="./page.html?seriados">Séries</a></li>
+                <li><a href="./page.html?filmes">Filmes</a></li>
+                <li><a href="./page.html?animacoes">Animações</a></li>
+                <li><a href="./filme1/planos.html">Planos</a></li>
+            </ul>
+        </nav>
+    </header>
 
-	<main>
-		<div class="filme-principal">
-			<div class="container">
-				<img title="Lucifer" alt="Lucifer"
-					src="https://occ-0-1319-1123.1.nflxso.net/dnm/api/v6/tx1O544a9T7n8Z_G12qaboulQQE/AAAABTAZf82UtwF12N5VAz8mOnf__bCpqdM1WKVOfnl1_RuAiKw4TsaeDmL1-aukB8BzEzoren0WlM9y6-YCEuJvwyQvaiwa0QaeLB6dbckaz9HyzsDxhHaj6CIKQkF3aBbzK4lGIjwTefAp1X15nJYRe1Uco8RCgaPZ6SjzbzXK3f6w.webp?r=08a">
-				<p class="sinopse">Entediado com a vida nas trevas, o diabo se muda para Los Angeles, abre um piano-bar e
-					empresta sua sabedoria
-					a uma investigadora de assassinatos.</p>
-				<div class="buttons">
-					<button class="btn" id="assistir">
-						<i class="fas fa-play" style="margin-right: 3px"></i>
-						Assistir
-					</button>
-					<button id="infos" class="btn-info">
-						<i class="fas fa-info-circle" style="margin-right: 3px"></i>
-						Mais Informações
-					</button>
-				</div>
-				<div class="container-titulo">
-					<p class="populares">Populares na Netflix</p>
-				</div>
-			</div>
-		</div>
-	</main>
+    <section id="banner">
+        <!-- <video >
+            <source src="movie.mp4" type="./asset/video/Lucifer _ Temporada 4 - Teaser [HD] _ Netflix.mp4">
+            <source src="./asset/video/Lucifer _ Temporada 4 - Teaser [HD] _ Netflix.mp4" type="video/ogg">
+          Your browser does not support the video tag.
+          </video> -->
+          <img src="" alt="">
+          <div class="legenda">
+            <h1 id="titleInicial"></h1>
+            <p id="descricaoInicial"></p>
+            <div class="boxBtn">
+                <button class="btn btn-assistir"><img src="./asset/img/icon/play-solid.svg" alt="Attistir"> Assistir</button>
+                <button class="btn btn-plus-info modal"><img src="./asset/img/icon/info-circle-solid.svg" alt=""> Mais Informações</button>
+            </div>
+          </div>
+    </section>
 
-	<div class="carousel-filmes">
-		<div class="owl-carousel owl-theme">
-			<div class="item">
-				<img class="box-filme" src="assets/mini2.jpeg">
-			</div>
-			<div class="item">
-				<img class="box-filme" src="assets/film1.jpeg">
-			</div>
-			<div class="item">
-				<img class="box-filme" src="assets/anim1.jpeg">
-			</div>
-			<div class="item">
-				<img class="box-filme" src="assets/mini1.jpeg">
-			</div>
-			<div class="item">
-				<img class="box-filme" src="assets/film2.jpeg">
-			</div>
-			<div class="item">
-				<img class="box-filme" src="assets/anim2.jpeg">
-			</div>
-			<div class="item">
-				<img class="box-filme" src="assets/mini3.jpeg">
-			</div>
-			<div class="item">
-				<img class="box-filme" src="assets/film3.jpeg">
-			</div>
-			<div class="item">
-				<img class="box-filme" src="assets/anim3.jpeg">
-			</div>
-			<div class="item">
-				<img class="box-filme" src="assets/mini4.jpeg">
-			</div>
-		</div>
-	</div>
-
-	<script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
-
-	<!--Owl scripts-->
-	<script src="js/owl/jquery.min.js"></script>
-	<script src="js/owl/owl.carousel.min.js"></script>
-	<script src="js/owl/setup.js"></script>
-
-	<!--Button script-->
-	<script type="text/javascript">
-		document.getElementById("assistir").onclick = function () {
-			location.href = "https://www.youtube.com/watch?v=JWawpgyauGU";
-		};
-	</script>
-	<script type="text/javascript">
-		document.getElementById("infos").onclick = function () {
-			location.href = "https://www.netflix.com/title/80057918";
-		};
-	</script>
+    <section class="sliderCards">
+        <h2>Populares</h2>
+        <div class="widthSlider">
+            <img src="./asset/img/icon/chevron-left-solid.svg" alt="" class="arrows arrowsleft">
+            <img src="./asset/img/icon/chevron-right-solid.svg" alt="" class="arrows arrowsright">
+            <div class="sliderWidth">
+                
+            </div>
+        </div>
+    </section>
+    <section class="sliderCards">
+        <h2>seriados</h2>
+        <div class="widthSlider">
+            <img src="./asset/img/icon/chevron-left-solid.svg" alt="" class="arrows arrowsleft">
+            <img src="./asset/img/icon/chevron-right-solid.svg" alt="" class="arrows arrowsright">
+            <div class="sliderWidth">
+                
+            </div>
+        </div>
+    </section>
+    <section class="sliderCards">
+        <h2>Animações</h2>
+        <div class="widthSlider">
+            <img src="./asset/img/icon/chevron-left-solid.svg" alt="" class="arrows arrowsleft">
+            <img src="./asset/img/icon/chevron-right-solid.svg" alt="" class="arrows arrowsright">
+            <div class="sliderWidth">
+                
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <h6>Resilia</h6>
+        <ul>
+            <li>
+                <a href="">termos</a>
+            </li>
+            <li>
+                <a href="">quem somos</a>
+            </li>
+            <li>
+                <a href="">termos</a>
+            </li>
+            <li>
+                <a href="">Denúncias e Ouvidoria</a>
+            </li>
+            <li>
+                <a href="" class="last">contato</a>
+            </li>
+        </ul>
+        <p>Todos os direitos reservados&copy; 2021</p>
+    </footer>
+    <div class="mainModal">
+        <div class="modalmain">
+            <div class="modalheader">
+               <img src="./asset/img/icon/times-solid.svg" alt="fechar">
+            </div>
+            <div class="modalbody">
+                <h2 id="titleModal"></h2>
+                <div class="videoModal">
+                    <video controls autoplay>
+                        <source src="" type="video/mp4">
+                      </video>
+                </div>
+            </div>
+            <div class="modalfooter">
+                <p>Lançamento: <span id="lancamento"></span><span id="classificacao"></span></p>
+                <div class="sinopse">
+                    <p class="descricaoModal"></p>
+                </div>
+                <div class="assistir">
+                    <button class="btn"><img src="./asset/img/icon/play-solid.svg" alt=""> Assistir</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./asset/js/script.js"></script>
 </body>
-
 </html>
